@@ -1,0 +1,17 @@
+{
+  "name": "talent-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "root-config",
+    "story-submission",
+    "talent-results"
+  ],
+  "scripts": {
+    "start": "concurrently \"npm run start --workspace root-config\" \"npm run start --workspace story-submission\"",
+    "build": "concurrently \"npm run build --workspace root-config\" \"npm run build --workspace story-submission\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

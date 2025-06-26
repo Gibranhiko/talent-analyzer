@@ -1,0 +1,15 @@
+{
+  "extends": "ts-config-single-spa",
+  "files": ["src/cleverum-root-config.ts"],
+  "compilerOptions": {
+    "declarationDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@cleverum/*": ["src/*"],
+      "@cleverum/story-submission": ["../story-submission/src/cleverum-story-submission.tsx"]
+    },
+    "jsx": "react-jsx" 
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"]
+}
