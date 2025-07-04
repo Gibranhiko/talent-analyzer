@@ -1,8 +1,9 @@
+import NxWelcome from "./nx-welcome";
+
 export function App() {
   return (
-    <div style={{ border: '2px solid blue' }}>
-      <h1>This is from React</h1>
-    </div>
+    <NxWelcome
+      title="wc_react_remote"/>
   );
 }
 
