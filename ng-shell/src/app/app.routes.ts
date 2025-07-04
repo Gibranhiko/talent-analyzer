@@ -1,4 +1,4 @@
-import { NxWelcome } from './nx-welcome';
+import { NxWelcome } from './components/nx-welcome';
 import { Route } from '@angular/router';
 import { ReactMfeRoute } from './react-mfe-route';
 
