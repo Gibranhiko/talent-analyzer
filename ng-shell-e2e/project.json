@@ -1,0 +1,9 @@
+{
+  "name": "ng-shell-e2e",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "ng-shell-e2e/src",
+  "implicitDependencies": ["ng-shell"],
+  "// targets": "to see all targets run: nx show project ng-shell-e2e --web",
+  "targets": {}
+}
